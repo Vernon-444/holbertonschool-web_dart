@@ -2,6 +2,6 @@
 // followed by a new line.
 
 void main() {
-  double n = 3.14159;
+  var n = 3.14159;
   print('Double: ${n.toStringAsFixed(2)}\n');
 }
