@@ -3,5 +3,5 @@
 
 void main() {
   var n = 3.14159;
-  print('Double: ${n.toStringAsFixed(2)}\n');
+  print('Double: ${double.parse((n).toStringAsFixed(2))}\n');
 }
