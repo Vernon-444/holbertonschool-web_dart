@@ -11,5 +11,5 @@ String showFunc(int a, int b) {
     if (a == null || b == null || a is! int || b is! int) {
         return "Error: invalid arguments";
     }
-    return "Add: $a + $b = ${add(a, b)}\nSub: $a - $b = ${sub(a, b)}";
+    return "Add $a + $b = ${add(a, b)}\nSub $a - $b = ${sub(a, b)}";
 }
