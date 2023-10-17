@@ -2,5 +2,5 @@
 // Hello <str> from dart
 
 void helloFunction(String name) {
-  print("Hello $name from Dart");
+  print("Hello $name from dart");
 }
